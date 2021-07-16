@@ -46,7 +46,7 @@ jobs:
           path: ${{ github.sha }}.zip
           
           
-          documentation:
+  documentation:
     runs-on: ubuntu-latest
     needs: lint
     steps:
